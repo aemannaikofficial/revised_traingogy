@@ -4,189 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Executive Diploma in Operations Management - Traingogy</title>
-    <meta name="description" content="Learn about the Executive Diploma in Operations Management programme offered by Traingogy UK. Flexible online learning with recognised qualifications.">
     <link rel="icon" href="../images/cropped-509f3b_feb28b364d7c48fda5c8f7cb95e32ad1mv2-32x32.webp" sizes="32x32">
     <link rel="stylesheet" href="../css/style.css?v=2">
     <style>
         body { background: #f0f4f8; }
-
-        .course-page-wrapper {
-            max-width: 1140px;
-            margin: 0 auto;
-            padding: 40px 20px 60px;
-        }
-
-        /* Hero banner - course thumbnail full-width with title overlay */
-        .course-hero-banner {
-            width: 100%;
-            height: 320px;
-            position: relative;
-            overflow: hidden;
-            border-radius: 8px 8px 0 0;
-            margin-bottom: 0;
-        }
-        .course-hero-banner img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-        .course-hero-banner-overlay {
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.7) 100%);
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            padding: 30px 40px;
-        }
-        .course-hero-banner-overlay h1 {
-            font-family: 'Oswald', sans-serif;
-            font-size: 38px;
-            color: #fff;
-            margin: 0 0 8px;
-            line-height: 1.2;
-        }
-        .breadcrumb-bar {
-            font-size: 14px;
-            color: rgba(255,255,255,0.85);
-        }
-        .breadcrumb-bar a {
-            color: #CCFF00;
-            text-decoration: none;
-        }
-        .breadcrumb-bar a:hover { text-decoration: underline; }
-
-        /* Layout: sidebar + content */
-        .course-layout {
-            display: flex;
-            gap: 30px;
-            background: #fff;
-            border-radius: 0 0 8px 8px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.10);
-            padding: 0;
-            overflow: hidden;
-        }
-
-        /* LEFT SIDEBAR */
-        .course-sidebar {
-            width: 280px;
-            flex-shrink: 0;
-            background: #fff;
-            border-right: 1px solid #e8edf2;
-            padding: 30px 0 30px;
-        }
-        .sidebar-info-block {
-            padding: 0 20px 25px;
-            border-bottom: 1px solid #e8edf2;
-            margin-bottom: 20px;
-        }
-        .sidebar-info-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 8px 0;
-        }
-        .sidebar-info-row .label {
-            font-family: 'Questrial', sans-serif;
-            font-size: 14px;
-            color: #888;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-        .sidebar-info-row .value {
-            font-family: 'Oswald', sans-serif;
-            font-size: 22px;
-            color: #2D5DA7;
-            font-weight: 600;
-        }
-        .sidebar-info-row .value.duration {
-            font-size: 16px;
-            color: #333;
-        }
-        .sidebar-enrol-btn {
-            display: block;
-            width: calc(100% - 40px);
-            margin: 0 20px 25px;
-            background: #2D5DA7;
-            color: #fff;
-            text-align: center;
-            padding: 14px 0;
-            font-family: 'Oswald', sans-serif;
-            font-size: 17px;
-            letter-spacing: 0.5px;
-            text-decoration: none;
-            border-radius: 4px;
-            transition: background 0.2s;
-        }
-        .sidebar-enrol-btn:hover { background: #1a3a6e; }
-
-        .sidebar-cert-block {
-            padding: 0 20px 25px;
-            border-bottom: 1px solid #e8edf2;
-            margin-bottom: 0;
-        }
-        .sidebar-cert-block h4 {
-            font-family: 'Oswald', sans-serif;
-            font-size: 14px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            color: #888;
-            margin: 0 0 10px;
-        }
-        .sidebar-cert-block img {
-            width: 100%;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-        }
-
-        /* RIGHT CONTENT */
-        .course-content {
-            flex: 1;
-            padding: 40px 40px 50px;
-            font-family: 'Questrial', sans-serif;
-            font-size: 17px;
-            line-height: 1.9;
-            color: #4a4a4a;
-        }
-        .course-content h2 {
-            font-family: 'Oswald', sans-serif;
-            font-size: 22px;
-            color: #2D5DA7;
-            margin: 32px 0 12px;
-            padding-bottom: 8px;
-            border-bottom: 2px solid #CCFF00;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
+        .course-page-wrapper { max-width: 1140px; margin: 0 auto; padding: 40px 20px 60px; }
+        .course-hero-banner { width: 100%; height: 320px; position: relative; overflow: hidden; border-radius: 8px 8px 0 0; }
+        .course-hero-banner img { width: 100%; height: 100%; object-fit: cover; }
+        .course-hero-banner-overlay { position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.7) 100%); display: flex; flex-direction: column; justify-content: flex-end; padding: 30px 40px; }
+        .course-hero-banner-overlay h1 { font-family: 'Oswald', sans-serif; font-size: 38px; color: #fff; margin: 0 0 8px; line-height: 1.2; }
+        .breadcrumb-bar { font-size: 14px; color: rgba(255,255,255,0.85); }
+        .breadcrumb-bar a { color: #CCFF00; text-decoration: none; }
+        .course-layout { display: flex; gap: 30px; background: #fff; border-radius: 0 0 8px 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); overflow: hidden; }
+        .course-sidebar { width: 280px; flex-shrink: 0; background: #fff; border-right: 1px solid #e8edf2; padding: 30px 0; }
+        .sidebar-info-block { padding: 0 20px 25px; border-bottom: 1px solid #e8edf2; margin-bottom: 20px; }
+        .sidebar-info-row { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; }
+        .sidebar-info-row .label { font-family: 'Questrial', sans-serif; font-size: 14px; color: #888; text-transform: uppercase; }
+        .sidebar-info-row .value { font-family: 'Oswald', sans-serif; font-size: 22px; color: #2D5DA7; font-weight: 600; }
+        .sidebar-enrol-btn { display: block; width: calc(100% - 40px); margin: 0 20px 25px; background: #2D5DA7; color: #fff; text-align: center; padding: 14px 0; font-family: 'Oswald', sans-serif; font-size: 17px; text-decoration: none; border-radius: 4px; }
+        .sidebar-cert-block { padding: 0 20px 25px; border-bottom: 1px solid #e8edf2; margin-bottom: 20px; }
+        .sidebar-cert-block h4 { font-family: 'Oswald', sans-serif; font-size: 14px; color: #888; margin: 0 0 10px; text-transform: uppercase; }
+        .sidebar-cert-block img { width: 100%; border: 1px solid #ddd; border-radius: 4px; }
+        .course-content { flex: 1; padding: 40px 40px 50px; font-family: 'Questrial', sans-serif; font-size: 17px; line-height: 1.9; color: #4a4a4a; }
+        .course-content h2 { font-family: 'Oswald', sans-serif; font-size: 22px; color: #2D5DA7; margin: 32px 0 12px; padding-bottom: 8px; border-bottom: 2px solid #CCFF00; text-transform: uppercase; }
         .course-content h2:first-child { margin-top: 0; }
         .course-content p { margin: 0 0 16px; }
-        .course-content ul, .course-content ol {
-            padding-left: 24px;
-            margin: 0 0 16px;
-        }
-        .course-content li { margin-bottom: 6px; }
-        .course-content strong { color: #333; font-weight: 600; }
-
         @media (max-width: 768px) {
             .course-layout { flex-direction: column; }
-            .course-sidebar { width: 100%; border-right: none; border-bottom: 1px solid #e8edf2; }
-            .course-hero-banner { height: 220px; }
-            .course-hero-banner-overlay h1 { font-size: 24px; }
-            .course-content { padding: 25px 20px; }
+            .course-sidebar { width: 100%; border-right: none; }
+            .course-content { padding: 30px 20px; }
         }
     </style>
 </head>
 <body>
-
 <header class="site-header">
     <div class="header-inner">
-        <div class="header-logo">
-            <a href="../index.html"><img src="../images/Traingogy-logo.webp" alt="Traingogy Logo" width="200" height="33"></a>
-        </div>
-        <button class="menu-toggle" aria-label="Open menu" id="menuToggle">
-            <span></span><span></span><span></span>
-        </button>
-        <ul class="main-nav" id="mainNav">
+        <div class="header-logo"><a href="../index.html"><img src="../images/Traingogy-logo.webp" alt="Traingogy Logo" width="200" height="33"></a></div>
+        <ul class="main-nav">
             <li><a href="../index.html">Home</a></li>
             <li><a href="../about.html">About</a></li>
             <li><a href="../all-programmes.html" class="active">Programmes</a></li>
@@ -198,86 +52,51 @@
 </header>
 
 <div class="course-page-wrapper">
-    <!-- Hero Banner -->
     <div class="course-hero-banner">
         <img src="../images/operations-management-1-1.webp" alt="Executive Diploma in Operations Management">
         <div class="course-hero-banner-overlay">
-            <div class="breadcrumb-bar">
-                <a href="../all-programmes.html">Programmes</a> &rsaquo; <a href="../management-programmes.html">management programmes</a> &rsaquo; Executive Diploma in Operations Management
-            </div>
+            <div class="breadcrumb-bar"><a href="../all-programmes.html">Programmes</a> &rsaquo; Executive Diploma in Operations Management</div>
             <h1>Executive Diploma in Operations Management</h1>
         </div>
     </div>
-
-    <!-- 2‑column layout -->
     <div class="course-layout">
-        <!-- LEFT SIDEBAR -->
-        <aside class="course-sidebar">
-            <div class="sidebar-info-block">
-                <div class="sidebar-info-row">
-                    <span class="label">Price</span>
-                    <span class="value">£200</span>
-                </div>
-                <div class="sidebar-info-row">
-                    <span class="label">Duration</span>
-                    <span class="value duration">6 Months</span>
-                </div>
-            </div>
+        
+<aside class="course-sidebar">
+    <div class="sidebar-info-block">
+        <div class="sidebar-info-row">
+            <span class="label">Price</span>
+            <span class="value">£200</span>
+        </div>
+        <div class="sidebar-info-row">
+            <span class="label">Duration</span>
+            <span class="value duration">6 Months</span>
+        </div>
+    </div>
 
-            <a href="../contact.html" class="sidebar-enrol-btn">Enquire / Enrol</a>
+    <a href="../contact.html" class="sidebar-enrol-btn">Enquire / Enrol</a>
 
-            
-            <div class="sidebar-cert-block">
-                <h4>Sample Certificate</h4>
-                <img src="../images/Executive-Diploma-in-Operations-Management-1.webp" alt="Sample Certificate for Executive Diploma in Operations Management">
-            </div>
+    
+    <div class="sidebar-cert-block">
+        <h4>Sample Certificate</h4>
+        <img src="../images/Executive-Diploma-in-Operations-Management-1.webp" alt="Sample Certificate">
+    </div>
 
-            
-<h3 style="font-family:'Oswald',sans-serif;font-size:18px;color:#fff;background:#2D5DA7;padding:14px 20px;margin:0 0 0 0;letter-spacing:0.5px;text-transform:uppercase;">Programme Category</h3>
-<ul style="list-style:none;padding:0;margin:0;border:1px solid #e2e8f0;border-top:none;">
-    <li style="border-bottom:1px solid #e8edf2;"><a href="../marketing-programmes.html" style="display:block;padding:12px 20px;color:#333;text-decoration:none;font-family:'Questrial',sans-serif;font-size:15px;transition:background 0.2s;" onmouseover="this.style.background='#f0f4f8'" onmouseout="this.style.background=''">Marketing</a></li>
-    <li style="border-bottom:1px solid #e8edf2;"><a href="../management-programmes.html" style="display:block;padding:12px 20px;color:#333;text-decoration:none;font-family:'Questrial',sans-serif;font-size:15px;" onmouseover="this.style.background='#f0f4f8'" onmouseout="this.style.background=''">Management</a></li>
-    <li style="border-bottom:1px solid #e8edf2;"><a href="../retailing-programmes.html" style="display:block;padding:12px 20px;color:#333;text-decoration:none;font-family:'Questrial',sans-serif;font-size:15px;" onmouseover="this.style.background='#f0f4f8'" onmouseout="this.style.background=''">Retailing</a></li>
-    <li style="border-bottom:1px solid #e8edf2;"><a href="../customer-service-programmes.html" style="display:block;padding:12px 20px;color:#333;text-decoration:none;font-family:'Questrial',sans-serif;font-size:15px;" onmouseover="this.style.background='#f0f4f8'" onmouseout="this.style.background=''">Customer Service</a></li>
-    <li style="border-bottom:1px solid #e8edf2;"><a href="../early-childhood-programmes.html" style="display:block;padding:12px 20px;color:#333;text-decoration:none;font-family:'Questrial',sans-serif;font-size:15px;" onmouseover="this.style.background='#f0f4f8'" onmouseout="this.style.background=''">Early Childhood</a></li>
-    <li style="border-bottom:1px solid #e8edf2;"><a href="../human-resource-management-programmes.html" style="display:block;padding:12px 20px;color:#333;text-decoration:none;font-family:'Questrial',sans-serif;font-size:15px;" onmouseover="this.style.background='#f0f4f8'" onmouseout="this.style.background=''">Human Resource Management</a></li>
-    <li style="border-bottom:1px solid #e8edf2;"><a href="../logistics-purchasing-and-supply-chain-programmes.html" style="display:block;padding:12px 20px;color:#333;text-decoration:none;font-family:'Questrial',sans-serif;font-size:15px;" onmouseover="this.style.background='#f0f4f8'" onmouseout="this.style.background=''">Logistics, Purchasing and SCM</a></li>
-    <li style="border-bottom:1px solid #e8edf2;"><a href="../leadership-and-strategic-management-programmes.html" style="display:block;padding:12px 20px;color:#333;text-decoration:none;font-family:'Questrial',sans-serif;font-size:15px;" onmouseover="this.style.background='#f0f4f8'" onmouseout="this.style.background=''">Leadership and Strategic Management</a></li>
-    <li style="border-bottom:1px solid #e8edf2;"><a href="../islamic-trust-and-estate-management-programmes.html" style="display:block;padding:12px 20px;color:#333;text-decoration:none;font-family:'Questrial',sans-serif;font-size:15px;" onmouseover="this.style.background='#f0f4f8'" onmouseout="this.style.background=''">Islamic Trust and Estate Management</a></li>
-    <li style="border-bottom:1px solid #e8edf2;"><a href="../data-science-and-analytic-programme.html" style="display:block;padding:12px 20px;color:#333;text-decoration:none;font-family:'Questrial',sans-serif;font-size:15px;" onmouseover="this.style.background='#f0f4f8'" onmouseout="this.style.background=''">Data Science and Analytic</a></li>
-    <li><a href="../accounting-and-finance-programme.html" style="display:block;padding:12px 20px;color:#333;text-decoration:none;font-family:'Questrial',sans-serif;font-size:15px;" onmouseover="this.style.background='#f0f4f8'" onmouseout="this.style.background=''">Accounting and Finance</a></li>
-</ul>
-        </aside>
-
-        <!-- RIGHT CONTENT -->
-        <main class="course-content">
-            <p>Marketing Management Retailing Customer Sevices Early Childhood Human Resource Management Logistics, Purchasing and SCM Leadership and Strategic Management Education and Tesol.</p>
-<h2>PROGRAMME</h2>
-<p>AIMS This Executive Diploma in Operations Management is designed to provide a fundamental understanding of managing projects in Business Management. It is designed to equip those who are keen to take up employment in Operations Management within the business sector.</p>
-<p>Those who are keen to further their education can progress on to either the Higher Diploma in Business Management or gain entry and acceptance into Year 2 of a Bachelor degree..</p>
-<h2>PROGRAMME</h2>
-<p>STRUCTURE The Executive Diploma in Operations Management comprises of three modules. Executive Diploma in Operations Management is a professional diploma delivered in a manner that gives you the flexibility to learn at a time and place that suits your personal and work life.</p>
-<p>You can embark immediately on an Executive Diploma in Operations Management knowing you can fit it into your schedule. 3 core modules 60 credits Project Management &#8211; 20 Credits Compensation Management &#8211; 20 Credits   Financial Management &#8211; 20 Credits.</p>
-<h2>DELIVERY</h2>
-<p>MODE Mode A: Blended Learning mode Available at selected Approved Learning Centres where classes are held plus learners are given a complete set of learning materials to facilitate independent study which can be accessed through our designated Learning Portal.</p>
-<p>For each module we recommend that Approved Learning Centres provide between 6 and 12 hours of lectures/tutorials and that you spend at least 12 hours learning online. Mode B: Fully Online mode Learners are given a complete set of learning materials to facilitate independent study which can be accessed through our designated Learning Portal.</p>
-<p>For each module, we recommend at least 24 hours of online learning..</p>
-<h2>ADMISSION</h2>
-<p>CRITERIA An applicant may be admitted on the basis of evidence to suggest that he or she will be able to fulfill and benefit from the objectives of the programme and achieve the standard required for the award. ​ Summary of Entry Requirements  No prior knowledge is required.</p>
-<p>Applicants should normally be at least 16 years old and preferably with the following: Level 3 (QCF/RQF) Certificate; 4 GCSEs at grade C or above; or Working adults. ​ Advanced Standing / Exemptions / Credits Transfer (APL) Consideration for the above for learners admitted onto the programme may be considered either at the beginning of a programme, or beyond the beginning of a programme, through an assessment of that learner’s prior learning, whether certificated or un-certificated.</p>
-<p>The process for making such a decision is known as the Accreditation of Prior Learning (APL) is a matter of academic judgment exercised by the appointed panel considering applications and approvals of APL. Where cohorts of learners are to be admitted with advanced standing on a regular basis, the arrangement should be subject to an Academic Progression Agreement..</p>
-<h2>ASSESSMENT</h2>
-<p>STRUCTURE Comprehensive Multiple Choice Questions (“MCQs”)  The mode of assessment is a carefully designed MCQs consisting of 50 MCQs to be taken either online or in a proctored paper-based final examination at approved centres. The duration of this final assessment will be 1.5 hours.</p>
-<p>The MCQ will serve to validate the attainment of broad understanding and application of knowledge by learners is related to the intended learning outcomes..</p>
-<h2>UNIT</h2>
-<p>SPECIFICATION Participants will be awarded an Executive Diploma in Operations Management upon completion of the 3 Modules in Project Management, Compensation Management and Financial Management. 1. Project Management   Learning Outcomes On completion of this Module learners will be able to: Examine the key knowledge required to undertake Project Management.</p>
-<p>Use the required models, tools and practices to ensure effective Project Management from Conceptual stage to Project Closure. Topics covered include: Overview of Project Management Planning the Project Executing the Project Scheduling Project Work Project Control and Evaluation Building Support for your projects Managing the Project Team How does to make project management work in your company? 2.</p>
-<p>Compensation Management   Learning Outcomes On completion of this Module learners will be able to: Articulate the various key concepts and principles relating to Compensation Management. Analyse and apply various techniques and tools used to effectively manage workforce Compensation.</p>
-<p>Topics covered include: Introduction to Compensation Management Economic Theories and Compensation Management Compensation Management and Job Design Performance-Related Compensation Negotiation in Compensation Attrition and Compensation Management Executive Compensation Sales Compensation Plans Strategic Compensation Management Quantitative Tools and Innovation in Compensation 3.</p>
-<p>Financial Management Learning Outcomes  On completion of this Module learners will be able to: Examine key knowledge relating to the concepts and principles of undertaking Financial Management. Use the required models, tools and techniques to ensure effective application of Financial Management in an organisation.</p>
-<p>Topics covered include: What is Financial Management? What are Financial Statements? Sources of Finance: Long-term Sources and Short-term Sources Explain Leverages Types of Shares Terms related to Financial Markets Types of Budgets Budgetary Control.</p>
-
-        </main>
+    <h3 style="font-family:'Oswald',sans-serif;font-size:18px;color:#fff;background:#2D5DA7;padding:14px 20px;margin:0;letter-spacing:0.5px;text-transform:uppercase;">Programme Category</h3>
+    <ul style="list-style:none;padding:0;margin:0;border:1px solid #e2e8f0;border-top:none;">
+        <li style="border-bottom:1px solid #e8edf2;"><a href="../marketing-programmes.html" style="display:block;padding:12px 20px;color:#333;text-decoration:none;font-family:'Questrial',sans-serif;font-size:15px;">Marketing</a></li>
+        <li style="border-bottom:1px solid #e8edf2;"><a href="../management-programmes.html" style="display:block;padding:12px 20px;color:#333;text-decoration:none;font-family:'Questrial',sans-serif;font-size:15px;">Management</a></li>
+        <li style="border-bottom:1px solid #e8edf2;"><a href="../retailing-programmes.html" style="display:block;padding:12px 20px;color:#333;text-decoration:none;font-family:'Questrial',sans-serif;font-size:15px;">Retailing</a></li>
+        <li style="border-bottom:1px solid #e8edf2;"><a href="../customer-service-programmes.html" style="display:block;padding:12px 20px;color:#333;text-decoration:none;font-family:'Questrial',sans-serif;font-size:15px;">Customer Service</a></li>
+        <li style="border-bottom:1px solid #e8edf2;"><a href="../early-childhood-programmes.html" style="display:block;padding:12px 20px;color:#333;text-decoration:none;font-family:'Questrial',sans-serif;font-size:15px;">Early Childhood</a></li>
+        <li style="border-bottom:1px solid #e8edf2;"><a href="../human-resource-management-programmes.html" style="display:block;padding:12px 20px;color:#333;text-decoration:none;font-family:'Questrial',sans-serif;font-size:15px;">Human Resource Management</a></li>
+        <li style="border-bottom:1px solid #e8edf2;"><a href="../logistics-purchasing-and-supply-chain-programmes.html" style="display:block;padding:12px 20px;color:#333;text-decoration:none;font-family:'Questrial',sans-serif;font-size:15px;">Logistics, Purchasing and SCM</a></li>
+        <li style="border-bottom:1px solid #e8edf2;"><a href="../leadership-and-strategic-management-programmes.html" style="display:block;padding:12px 20px;color:#333;text-decoration:none;font-family:'Questrial',sans-serif;font-size:15px;">Leadership and Strategic Management</a></li>
+        <li style="border-bottom:1px solid #e8edf2;"><a href="../islamic-trust-and-estate-management-programmes.html" style="display:block;padding:12px 20px;color:#333;text-decoration:none;font-family:'Questrial',sans-serif;font-size:15px;">Islamic Trust and Estate Management</a></li>
+        <li style="border-bottom:1px solid #e8edf2;"><a href="../data-science-and-analytic-programme.html" style="display:block;padding:12px 20px;color:#333;text-decoration:none;font-family:'Questrial',sans-serif;font-size:15px;">Data Science and Analytic</a></li>
+        <li><a href="../accounting-and-finance-programme.html" style="display:block;padding:12px 20px;color:#333;text-decoration:none;font-family:'Questrial',sans-serif;font-size:15px;">Accounting and Finance</a></li>
+    </ul>
+</aside>
+        <main class="course-content"><h2>PROGRAMME AIMS</h2><p>This Executive Diploma in Operations Management is designed to provide a fundamental understanding of managing projects in Business Management.  It is designed to equip those who are keen to take up employment in Operations Management within the business sector. Those who are keen to further their education can progress on to either the Higher Diploma in Business Management or gain entry and acceptance into Year 2 of a Bachelor degree.</p><h2>PROGRAMME STRUCTURE</h2><p>The Executive Diploma in Operations Management comprises of three modules. Executive Diploma in Operations Management is a professional diploma delivered in a manner that gives you the flexibility to learn at a time and place that suits your personal and work life. You can embark immediately on an Executive Diploma in Operations Management knowing you can fit it into your schedule.</p><p>3 core modules 60 credits</p><p>Project Management – 20 Credits</p><p>Compensation Management – 20 Credits</p><p>Financial Management – 20 Credits</p><h2>DELIVERY MODE</h2><p>Mode A: Blended Learning mode</p><p>Available at selected Approved Learning Centres where classes are held plus learners are given a complete set of learning materials to facilitate independent study which can be accessed through our designated Learning Portal.</p><p>For each module we recommend that Approved Learning Centres provide between 6 and 12 hours of lectures/tutorials and that you spend at least 12 hours learning online.</p><p>Mode B: Fully Online mode</p><p>Learners are given a complete set of learning materials to facilitate independent study which can be accessed through our designated Learning Portal. For each module, we recommend at least 24 hours of online learning.</p><h2>ADMISSION CRITERIA</h2><p>An applicant may be admitted on the basis of evidence to suggest that he or she will be able to fulfill and benefit from the objectives of the programme and achieve the standard required for the award.</p><p>​</p><p>Summary of Entry Requirements</p><p>No prior knowledge is required. Applicants should normally be at least 16 years old and preferably with the following:</p><p>Level 3 (QCF/RQF) Certificate;</p><p>4 GCSEs at grade C or above; or</p><p>Working adults.</p><p>​</p><p>Advanced Standing / Exemptions / Credits Transfer (APL)</p><p>Consideration for the above for learners admitted onto the programme may be considered either at the beginning of a programme, or beyond the beginning of a programme, through an assessment of that learner’s prior learning, whether certificated or un-certificated.  The process for making such a decision is known as the Accreditation of Prior Learning (APL) is a matter of academic judgment exercised by the appointed panel considering applications and approvals of APL. Where cohorts of learners are to be admitted with advanced standing on a regular basis, the arrangement should be subject to an Academic Progression Agreement.</p><h2>ASSESSMENT STRUCTURE</h2><p>Comprehensive Multiple Choice Questions (“MCQs”)</p><p>The mode of assessment is a carefully designed MCQs consisting of 50 MCQs to be taken either online or in a proctored paper-based final examination at approved centres. The duration of this final assessment will be 1.5 hours.  The MCQ will serve to validate the attainment of broad understanding and application of knowledge by learners is related to the intended learning outcomes.</p><h2>UNIT SPECIFICATION</h2><p>Participants will be awarded an Executive Diploma in Operations Management upon completion of the 3 Modules in Project Management, Compensation Management and Financial Management.</p><p>1. Project Management</p><p>Learning Outcomes</p><p>On completion of this Module learners will be able to:</p><p>Examine the key knowledge required to undertake Project Management.</p><p>Use the required models, tools and practices to ensure effective Project Management from Conceptual stage to Project Closure.</p><p>Topics covered include:</p><p>Overview of Project Management</p><p>Planning the Project</p><p>Executing the Project</p><p>Scheduling Project Work</p><p>Project Control and Evaluation</p><p>Building Support for your projects</p><p>Managing the Project Team</p><p>How does to make project management work in your company?</p><p>2. Compensation Management</p><p>Learning Outcomes</p><p>On completion of this Module learners will be able to:</p><p>Articulate the various key concepts and principles relating to Compensation Management.</p><p>Analyse and apply various techniques and tools used to effectively manage workforce Compensation.</p><p>Topics covered include:</p><p>Introduction to Compensation Management</p><p>Economic Theories and Compensation Management</p><p>Compensation Management and Job Design</p><p>Performance-Related Compensation</p><p>Negotiation in Compensation</p><p>Attrition and Compensation Management</p><p>Executive Compensation</p><p>Sales Compensation Plans</p><p>Strategic Compensation Management</p><p>Quantitative Tools and Innovation in Compensation</p><p>3. Financial Management</p><p>Learning Outcomes</p><p>On completion of this Module learners will be able to:</p><p>Examine key knowledge relating to the concepts and principles of undertaking Financial Management.</p><p>Use the required models, tools and techniques to ensure effective application of Financial Management in an organisation.</p><p>Topics covered include:</p><p>What is Financial Management?</p><p>What are Financial Statements?</p><p>Sources of Finance: Long-term Sources and Short-term Sources</p><p>Explain Leverages</p><p>Types of Shares</p><p>Terms related to Financial Markets</p><p>Types of Budgets</p><p>Budgetary Control</p></main>
     </div>
 </div>
 
@@ -285,6 +104,6 @@
     <img src="../images/509f3b_feb28b364d7c48fda5c8f7cb95e32ad1mv2.webp" alt="Traingogy Logo">
     <p>&copy; 2024 Traingogy All Rights Reserved</p>
 </footer>
-<script src="../js/main.js?v=2"></script>
+<script src="../js/main.js"></script>
 </body>
 </html>
