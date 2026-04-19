@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Traingogy.uk</title>
+    <meta name="description" content="Student login portal for Traingogy UK. Access your online learning dashboard.">
+    <link rel="icon" href="images/cropped-509f3b_feb28b364d7c48fda5c8f7cb95e32ad1mv2-32x32.webp" sizes="32x32">
+    <link rel="stylesheet" href="css/style.css?v=2">
+    <style>
+        .login-section {
+            background-color: #E2E8F0;
+            padding: 80px 20px;
+            min-height: calc(100vh - 200px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .login-box {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            width: 100%;
+            max-width: 450px;
+            text-align: center;
+        }
+        .login-box h2 {
+            font-size: 28px;
+            color: #2D5DA7;
+            margin-bottom: 25px;
+        }
+        .login-box .form-group {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .login-box-footer {
+            margin-top: 20px;
+            font-family: 'Questrial', sans-serif;
+            font-size: 14px;
+        }
+        .login-box-footer a {
+            color: #2D5DA7;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <div class="header-inner">
+        <div class="header-logo">
+            <a href="index.html">
+                <img src="images/Traingogy-logo.webp" alt="Traingogy Logo" width="200" height="33">
+            </a>
+        </div>
+        <button class="menu-toggle" aria-label="Open menu" id="menuToggle">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="main-nav" id="mainNav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="all-programmes.html">Programmes</a></li>
+            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            
+        </ul>
+        <div class="header-action"><a href="login.html" class="btn-header-login">Login</a></div>
+    </div>
+</header>
+
+<section class="login-section">
+    <div class="login-box">
+        <h2>Student Portal Login</h2>
+        <form action="#" method="POST" onsubmit="event.preventDefault(); alert('Navigation to LMS dashboard disabled in this static demo.');">
+            <div class="form-group">
+                <label for="username">Username or Email</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn-submit" style="width: 100%;">Login</button>
+        </form>
+        <div class="login-box-footer">
+            <p><a href="#">Forgot your password?</a></p>
+            <p>Need an account? <a href="contact.html">Enquire to enrol</a></p>
+        </div>
+    </div>
+</section>
+
+<footer class="site-footer">
+    <img src="images/509f3b_feb28b364d7c48fda5c8f7cb95e32ad1mv2.webp" alt="Traingogy Logo">
+    <p>© 2024 Traingogy All Rights Reserved</p>
+</footer>
+
+<script src="js/main.js?v=2"></script>
+</body>
+</html>
