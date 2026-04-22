@@ -1,106 +1,584 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-US">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Science and Analytic Programme - Traingogy</title>
-    <link rel="icon" href="images/cropped-509f3b_feb28b364d7c48fda5c8f7cb95e32ad1mv2-32x32.webp" sizes="32x32">
-    <link rel="stylesheet" href="css/style.css?v=2">
-    <style>body { background: url('images/programme-bg.webp') no-repeat center center fixed; background-size: cover; }</style>
-</head>
-<body>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
-<header class="site-header">
-    <div class="header-inner">
-        <div class="header-logo">
-            <a href="index.html"><img src="images/Traingogy-logo.webp" alt="Traingogy Logo" width="200" height="33"></a>
-        </div>
-        <button class="menu-toggle" aria-label="Open menu" id="menuToggle">
-            <span></span><span></span><span></span>
-        </button>
-        <ul class="main-nav" id="mainNav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="all-programmes.html" class="active">Programmes</a></li>
-            <li><a href="faqs.html">FAQs</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <div class="header-action"><a href="login.html" class="btn-header-login">Login</a></div>
-    </div>
-</header>
-
-<div class="page-wrapper-card" style="background: rgba(255,255,255,0.95); max-width: 1200px; margin: 40px auto; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); overflow: hidden;">
-<div class="content-section" style="padding: 50px 20px 20px; text-align: center;">
-    <h2 style="font-size: 38px; color: #32373c; font-family: 'Oswald', sans-serif;">Data Science and Analytic Programme</h2>
-    <div style="max-width: 800px; margin: 0 auto; color: #7A7A7A; font-family: 'Questrial', sans-serif; font-size: 17px; line-height: 1.8;">
-        The Data Science and Analytics programme provides these skills, combining a strong academic degree course with hands-on experience of leading commercial technology, and the chance to gain industry certification
-    </div>
-</div>
-
-<div class="courses-section" style="padding: 30px 20px 50px;">
-    <div class="courses-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 30px; max-width: 1140px; margin: 0 auto;">
-<div style="grid-column: 1/-1; text-align:center; padding: 40px; color: #888; font-family: 'Questrial', sans-serif;">New programmes coming soon. Please contact us for details.</div>
-
-    </div>
-</div>
-
-<div class="programmes-section" style="padding: 50px 20px; text-align: center; border-top: 1px solid #e2e8f0;">
-    <h2 style="font-size: 32px; color: #2D5DA7; margin-bottom: 40px; font-family: 'Oswald', sans-serif;">Programme Categories</h2>
-    <div class="categories-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 30px; max-width: 1140px; margin: 0 auto;">
-        <a href="marketing-programmes.html" class="category-card" style="text-decoration:none; background:#fff; border-radius:6px; overflow:hidden; box-shadow:0 2px 10px rgba(0,0,0,0.07); display:block; transition:transform 0.2s;">
-            <img src="images/3b0f8f145e3945f5858fae9cb6eca217.jpg" alt="Marketing" style="width:100%; height:160px; object-fit:cover;">
-            <h3 style="margin:0; padding:20px 15px; font-family:'Oswald', sans-serif; font-size:18px; color:#333;">Marketing</h3>
-        </a>
-        <a href="management-programmes.html" class="category-card" style="text-decoration:none; background:#fff; border-radius:6px; overflow:hidden; box-shadow:0 2px 10px rgba(0,0,0,0.07); display:block; transition:transform 0.2s;">
-            <img src="images/nsplsh_75c035620c1b4c9fa17b92acf9f382c4mv2-1.jpg" alt="Management" style="width:100%; height:160px; object-fit:cover;">
-            <h3 style="margin:0; padding:20px 15px; font-family:'Oswald', sans-serif; font-size:18px; color:#333;">Management</h3>
-        </a>
-        <a href="retailing-programmes.html" class="category-card" style="text-decoration:none; background:#fff; border-radius:6px; overflow:hidden; box-shadow:0 2px 10px rgba(0,0,0,0.07); display:block; transition:transform 0.2s;">
-            <img src="images/nsplsh_838b5c0886ee44ae8fd79bf060b7742fmv2.jpg" alt="Retailing" style="width:100%; height:160px; object-fit:cover;">
-            <h3 style="margin:0; padding:20px 15px; font-family:'Oswald', sans-serif; font-size:18px; color:#333;">Retailing</h3>
-        </a>
-        <a href="customer-service-programmes.html" class="category-card" style="text-decoration:none; background:#fff; border-radius:6px; overflow:hidden; box-shadow:0 2px 10px rgba(0,0,0,0.07); display:block; transition:transform 0.2s;">
-            <img src="images/nsplsh_4a6f42ab84f442d28e4fbdb835f98e1emv2-1.jpg" alt="Customer Service" style="width:100%; height:160px; object-fit:cover;">
-            <h3 style="margin:0; padding:20px 15px; font-family:'Oswald', sans-serif; font-size:18px; color:#333;">Customer Service</h3>
-        </a>
-        <a href="early-childhood-programmes.html" class="category-card" style="text-decoration:none; background:#fff; border-radius:6px; overflow:hidden; box-shadow:0 2px 10px rgba(0,0,0,0.07); display:block; transition:transform 0.2s;">
-            <img src="images/11062b_3214740e10c14a57915f9fd64011fad0mv2.jpg" alt="Early Childhood" style="width:100%; height:160px; object-fit:cover;">
-            <h3 style="margin:0; padding:20px 15px; font-family:'Oswald', sans-serif; font-size:18px; color:#333;">Early Childhood</h3>
-        </a>
-        <a href="human-resource-management-programmes.html" class="category-card" style="text-decoration:none; background:#fff; border-radius:6px; overflow:hidden; box-shadow:0 2px 10px rgba(0,0,0,0.07); display:block; transition:transform 0.2s;">
-            <img src="images/509f3b_d4924098b5fe4f7689bfe63309300f75mv2-1.jpg" alt="Human Resource Management" style="width:100%; height:160px; object-fit:cover;">
-            <h3 style="margin:0; padding:20px 15px; font-family:'Oswald', sans-serif; font-size:18px; color:#333;">Human Resource Management</h3>
-        </a>
-        <a href="logistics-purchasing-and-supply-chain-programmes.html" class="category-card" style="text-decoration:none; background:#fff; border-radius:6px; overflow:hidden; box-shadow:0 2px 10px rgba(0,0,0,0.07); display:block; transition:transform 0.2s;">
-            <img src="images/nsplsh_002d9a5110a1434982632801d969a414mv2-2.jpg" alt="Logistics, Purchasing and SCM" style="width:100%; height:160px; object-fit:cover;">
-            <h3 style="margin:0; padding:20px 15px; font-family:'Oswald', sans-serif; font-size:18px; color:#333;">Logistics, Purchasing and SCM</h3>
-        </a>
-        <a href="leadership-and-strategic-management-programmes.html" class="category-card" style="text-decoration:none; background:#fff; border-radius:6px; overflow:hidden; box-shadow:0 2px 10px rgba(0,0,0,0.07); display:block; transition:transform 0.2s;">
-            <img src="images/e1f88fe1ad0f4844b50abde26bfc0a45.jpg" alt="Leadership and Strategic Management" style="width:100%; height:160px; object-fit:cover;">
-            <h3 style="margin:0; padding:20px 15px; font-family:'Oswald', sans-serif; font-size:18px; color:#333;">Leadership and Strategic Management</h3>
-        </a>
-        <a href="islamic-trust-and-estate-management-programmes.html" class="category-card" style="text-decoration:none; background:#fff; border-radius:6px; overflow:hidden; box-shadow:0 2px 10px rgba(0,0,0,0.07); display:block; transition:transform 0.2s;">
-            <img src="images/509f3b_d1eac689b6f84fae8166ea4ac55572efmv2.jpeg" alt="Islamic Trust and Estate Management Programmes" style="width:100%; height:160px; object-fit:cover;">
-            <h3 style="margin:0; padding:20px 15px; font-family:'Oswald', sans-serif; font-size:18px; color:#333;">Islamic Trust and Estate Management Programmes</h3>
-        </a>
-        <a href="data-science-and-analytic-programme.html" class="category-card" style="text-decoration:none; background:#fff; border-radius:6px; overflow:hidden; box-shadow:0 2px 10px rgba(0,0,0,0.07); display:block; transition:transform 0.2s;">
-            <img src="images/509f3b_4185d39b91884de893259412ce4d4dbdmv2-1.jpg" alt="Data Science and Analytic" style="width:100%; height:160px; object-fit:cover;">
-            <h3 style="margin:0; padding:20px 15px; font-family:'Oswald', sans-serif; font-size:18px; color:#333;">Data Science and Analytic</h3>
-        </a>
-        <a href="accounting-and-finance-programme.html" class="category-card" style="text-decoration:none; background:#fff; border-radius:6px; overflow:hidden; box-shadow:0 2px 10px rgba(0,0,0,0.07); display:block; transition:transform 0.2s;">
-            <img src="images/509f3b_a6cfe42311ac4bce859a7bf8f1c54c40mv2-1.webp" alt="Accounting and Finance" style="width:100%; height:160px; object-fit:cover;">
-            <h3 style="margin:0; padding:20px 15px; font-family:'Oswald', sans-serif; font-size:18px; color:#333;">Accounting and Finance</h3>
-        </a>
-    </div>
-</div>
+	<!-- This site is optimized with the Yoast SEO plugin v26.8 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Data Science and Analytic Programme - traingogy.uk</title>
+	<meta name="description" content="The Data Science and Analytics programme provides these skills, combining a strong academic degree course with hands-on experience of leading commercial technology, and the chance to gain industry certification Programme Categories Marketing Management Retailing Customer Service Early Childhood Human Resource Management Logistics, Purchasing and SCM Leadership and Strategic Management Islamic Trust and Estate Management Programmes [&hellip;]" />
+	<link rel="canonical" href="data-science-and-analytic-programme.html" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Data Science and Analytic Programme - traingogy.uk" />
+	<meta property="og:description" content="The Data Science and Analytics programme provides these skills, combining a strong academic degree course with hands-on experience of leading commercial technology, and the chance to gain industry certification Programme Categories Marketing Management Retailing Customer Service Early Childhood Human Resource Management Logistics, Purchasing and SCM Leadership and Strategic Management Islamic Trust and Estate Management Programmes [&hellip;]" />
+	<meta property="og:url" content="https://traingogy.uk/data-science-and-analytic-programme/" />
+	<meta property="og:site_name" content="traingogy.uk" />
+	<meta property="article:modified_time" content="2025-06-20T13:32:56+00:00" />
+	<meta property="og:image" content="http://traingogy.uk/wp-content/uploads/2024/02/3b0f8f145e3945f5858fae9cb6eca217.jpg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://traingogy.uk/data-science-and-analytic-programme/","url":"https://traingogy.uk/data-science-and-analytic-programme/","name":"Data Science and Analytic Programme - traingogy.uk","isPartOf":{"@id":"https://traingogy.uk/#website"},"primaryImageOfPage":{"@id":"https://traingogy.uk/data-science-and-analytic-programme/#primaryimage"},"image":{"@id":"https://traingogy.uk/data-science-and-analytic-programme/#primaryimage"},"thumbnailUrl":"http://traingogy.uk/wp-content/uploads/2024/02/3b0f8f145e3945f5858fae9cb6eca217.jpg","datePublished":"2024-02-18T02:18:34+00:00","dateModified":"2025-06-20T13:32:56+00:00","breadcrumb":{"@id":"https://traingogy.uk/data-science-and-analytic-programme/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://traingogy.uk/data-science-and-analytic-programme/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://traingogy.uk/data-science-and-analytic-programme/#primaryimage","url":"https://traingogy.uk/wp-content/uploads/2024/02/3b0f8f145e3945f5858fae9cb6eca217.jpg","contentUrl":"https://traingogy.uk/wp-content/uploads/2024/02/3b0f8f145e3945f5858fae9cb6eca217.jpg","width":292,"height":122},{"@type":"BreadcrumbList","@id":"https://traingogy.uk/data-science-and-analytic-programme/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://traingogy.uk/"},{"@type":"ListItem","position":2,"name":"Data Science and Analytic Programme"}]},{"@type":"WebSite","@id":"https://traingogy.uk/#website","url":"https://traingogy.uk/","name":"traingogy.uk","description":"","publisher":{"@id":"https://traingogy.uk/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://traingogy.uk/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://traingogy.uk/#organization","name":"traingogy.uk","url":"https://traingogy.uk/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://traingogy.uk/#/schema/logo/image/","url":"https://traingogy.uk/wp-content/uploads/2024/02/cropped-509f3b_feb28b364d7c48fda5c8f7cb95e32ad1mv2-1.webp","contentUrl":"https://traingogy.uk/wp-content/uploads/2024/02/cropped-509f3b_feb28b364d7c48fda5c8f7cb95e32ad1mv2-1.webp","width":226,"height":41,"caption":"traingogy.uk"},"image":{"@id":"https://traingogy.uk/#/schema/logo/image/"}}]}</script>
+	<!-- / Yoast SEO plugin. -->
 
 
-</div>
+<link rel="alternate" type="application/rss+xml" title="traingogy.uk &raquo; Feed" href="feed.html" />
+<link rel="alternate" type="application/rss+xml" title="traingogy.uk &raquo; Comments Feed" href="comments/feed.html" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://traingogy.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftraingogy.uk%2Fdata-science-and-analytic-programme%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://traingogy.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftraingogy.uk%2Fdata-science-and-analytic-programme%2F&#038;format=xml" />
+<style id='wp-img-auto-sizes-contain-inline-css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id='wp-emoji-styles-inline-css'>
 
-<footer class="site-footer">
-    <img src="images/509f3b_feb28b364d7c48fda5c8f7cb95e32ad1mv2.webp" alt="Traingogy Logo">
-    <p>© 2024 Traingogy All Rights Reserved</p>
-</footer>
-<script src="js/main.js?v=2"></script>
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<link rel='stylesheet' id='jet-engine-frontend-css' href='wp-content/plugins/jet-engine/assets/css/frontend.css' media='all' />
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:root { --wp--style--global--content-size: 800px;--wp--style--global--wide-size: 1200px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 24px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 24px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='hello-elementor-css' href='wp-content/themes/hello-elementor/assets/css/reset.css' media='all' />
+<link rel='stylesheet' id='hello-elementor-theme-style-css' href='wp-content/themes/hello-elementor/assets/css/theme.css' media='all' />
+<link rel='stylesheet' id='hello-elementor-header-footer-css' href='wp-content/themes/hello-elementor/assets/css/header-footer.css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='wp-content/plugins/elementor/assets/css/frontend.min.css' media='all' />
+<link rel='stylesheet' id='elementor-post-6-css' href='wp-content/uploads/elementor/css/post-6.css' media='all' />
+<link rel='stylesheet' id='widget-image-css' href='wp-content/plugins/elementor/assets/css/widget-image.min.css' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='wp-content/plugins/elementor/assets/css/widget-heading.min.css' media='all' />
+<link rel='stylesheet' id='widget-posts-css' href='wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css' media='all' />
+<link rel='stylesheet' id='elementor-post-1948-css' href='wp-content/uploads/elementor/css/post-1948.css' media='all' />
+<link rel='stylesheet' id='elementor-post-27-css' href='wp-content/uploads/elementor/css/post-27.css' media='all' />
+<link rel='stylesheet' id='elementor-post-85-css' href='wp-content/uploads/elementor/css/post-85.css' media='all' />
+<link rel='stylesheet' id='ekit-widget-styles-css' href='wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles.css' media='all' />
+<link rel='stylesheet' id='ekit-responsive-css' href='wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive.css' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-oswald-css' href='http://traingogy.uk/wp-content/uploads/elementor/google-fonts/css/oswald.css?ver=1747395598' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-anton-css' href='http://traingogy.uk/wp-content/uploads/elementor/google-fonts/css/anton.css?ver=1747395598' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-questrial-css' href='http://traingogy.uk/wp-content/uploads/elementor/google-fonts/css/questrial.css?ver=1747395598' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-roboto-css' href='http://traingogy.uk/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1747395612' media='all' />
+<link rel='stylesheet' id='elementor-icons-ekiticons-css' href='wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons.css' media='all' />
+<script src="wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script src="wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="wp-json.html" /><link rel="alternate" title="JSON" type="application/json" href="https://traingogy.uk/wp-json/wp/v2/pages/1948" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://traingogy.uk/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.9.1" />
+<link rel='shortlink' href='https://traingogy.uk/?p=1948' />
+<div style="display:none;">
+<h3>Valores poker cartas.</h3>
+
+<p>	
+<ol>
+    <li>
+        <a href="big-wins-on-slot-machines-uk.html">Big Wins On Slot Machines Uk</a>: A diferencia de los juegos más simples, como las tragamonedas de video en línea, los juegos en vivo generalmente no se pueden jugar de forma gratuita, por lo que difícilmente encontrará el bono sin depósito en el casino en línea con crupier real.
+    </li>
+    <li>
+        <a href="what-casino-in-uk-pays-out-the-most.html">What Casino In Uk Pays Out The Most</a> - Muchos proveedores de software han hecho sus versiones de Andar Bahar a lo largo de los años.
+    </li>
+    <li>
+        <a href="best-slots.html">Best Slots</a>: También hay una aplicación, con la versión de Android descargada a través del sitio web y la versión de iOS disponible en la App Store, por lo que los fanáticos de los casinos móviles están atendidos.
+    </li>
+</ol>
+</p>
+
+<h3>Juego de la ruleta dela suerte gratis online.</h3>
+
+<p>
+    <dl>
+  <dt><a href="united-kingdom-online-casinos-for-real-money.html">United Kingdom Online Casinos For Real Money</a></dt>
+    <dd>El potencial de un bote progresivo es grande pero las posibilidades de ganarlo son muy escasas..</dd>
+  <dt><a href="888-casino-promo-code-united-kingdom.html">888 Casino Promo Code United Kingdom</a></dt>
+    <dd>Puede realizar un depósito en su cuenta de Royal Spinz en solo cuatro simples pasos Regístrese en el casino..</dd>
+    <dd>Todos los giros acreditados tienen una validez de 7 días a partir de la fecha de activación.</dd>
+</dl>
+</p>
+
+<h3>Ir solo al casino.</h3>
+
+<p>
+<a href="casinos-uk-no-deposit.html">Casinos Uk No Deposit</a></br>
+A diferencia de la mayoría de los casinos exclusivos de la competencia, que aparentemente están trabajando para mantener los bonos al mínimo o al menos limitar la forma en que se usan, Ladbrokes ha ido en la dirección opuesta.</br>
+<a href="best-online-casino-in-united-kingdom-top-reviewed.html">Best Online Casino In United Kingdom Top Reviewed</a></br>
+Todas las transacciones de depósito y retiro definitivamente serán seguras, te lo prometo.</br>
+<a href="online-casino-payouts-uk.html">Online Casino Payouts Uk</a></br>
+</p>
+
+
+
+</div><meta name="generator" content="Elementor 3.31.2; features: e_font_icon_svg, additional_custom_breakpoints, e_element_cache; settings: css_print_method-external, google_font-enabled, font_display-swap">
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<link rel="icon" href="wp-content/uploads/2024/02/cropped-509f3b_feb28b364d7c48fda5c8f7cb95e32ad1mv2-32x32.webp" sizes="32x32" />
+<link rel="icon" href="wp-content/uploads/2024/02/cropped-509f3b_feb28b364d7c48fda5c8f7cb95e32ad1mv2-192x192.webp" sizes="192x192" />
+<link rel="apple-touch-icon" href="wp-content/uploads/2024/02/cropped-509f3b_feb28b364d7c48fda5c8f7cb95e32ad1mv2-180x180.webp" />
+<meta name="msapplication-TileImage" content="https://traingogy.uk/wp-content/uploads/2024/02/cropped-509f3b_feb28b364d7c48fda5c8f7cb95e32ad1mv2-270x270.webp" />
+		<style id="wp-custom-css">
+			@media (max-width: 767px)
+.elementor-27 .elementor-element.elementor-element-c3573cd .eael-simple-menu-container .eael-simple-menu-toggle {
+    padding: 5px 10px 0 10px;
+    border-radius: 5px;
+}		</style>
+		</head>
+<body class="wp-singular page-template page-template-elementor_header_footer page page-id-1948 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor hello-elementor-default elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-1948">
+
+
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+		<div data-elementor-type="header" data-elementor-id="27" class="elementor elementor-27 elementor-location-header" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-1a220b2 e-con-full e-flex e-con e-parent" data-id="1a220b2" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-4c99482 e-con-full e-flex e-con e-child" data-id="4c99482" data-element_type="container">
+				<div class="elementor-element elementor-element-e033152 elementor-widget elementor-widget-image" data-id="e033152" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://traingogy.uk">
+							<img width="350" height="57" src="wp-content/uploads/2024/02/Traingogy-logo.webp" class="attachment-large size-large wp-image-45" alt="" srcset="https://traingogy.uk/wp-content/uploads/2024/02/Traingogy-logo.webp 350w, https://traingogy.uk/wp-content/uploads/2024/02/Traingogy-logo-300x49.webp 300w" sizes="(max-width: 350px) 100vw, 350px" />								</a>
+															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-ac5bf37 e-con-full e-flex e-con e-child" data-id="ac5bf37" data-element_type="container">
+				<div class="elementor-element elementor-element-99fd0e7 elementor-widget elementor-widget-ekit-nav-menu" data-id="99fd0e7" data-element_type="widget" data-widget_type="ekit-nav-menu.default">
+				<div class="elementor-widget-container">
+							<nav class="ekit-wid-con ekit_menu_responsive_tablet" 
+			data-hamburger-icon="icon icon-menu-button-of-three-horizontal-lines" 
+			data-hamburger-icon-type="icon" 
+			data-responsive-breakpoint="1024">
+			            <button class="elementskit-menu-hamburger elementskit-menu-toggler"  type="button" aria-label="hamburger-icon">
+                <i aria-hidden="true" class="ekit-menu-icon icon icon-menu-button-of-three-horizontal-lines"></i>            </button>
+            <div id="ekit-megamenu-main-menu" class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default ekit-nav-menu-one-page- ekit-nav-dropdown-hover"><ul id="menu-main-menu" class="elementskit-navbar-nav elementskit-menu-po-left submenu-click-on-icon"><li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-39 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="https://traingogy.uk/" class="ekit-menu-nav-link">Home</a></li>
+<li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="about.html" class="ekit-menu-nav-link">About</a></li>
+<li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="all-programmes.html" class="ekit-menu-nav-link">Programmes</a></li>
+<li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="faqs.html" class="ekit-menu-nav-link">FAQs</a></li>
+<li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="contact.html" class="ekit-menu-nav-link">Contact</a></li>
+</ul><div class="elementskit-nav-identity-panel"><a class="elementskit-nav-logo" href="https://traingogy.uk" target="" rel=""><img src="http://traingogy.uk/wp-content/uploads/2024/02/509f3b_feb28b364d7c48fda5c8f7cb95e32ad1mv2.webp" title="traingogy logo" alt="traingogy logo" decoding="async" /></a><button class="elementskit-menu-close elementskit-menu-toggler" type="button">X</button></div></div>			
+			<div class="elementskit-menu-overlay elementskit-menu-offcanvas-elements elementskit-menu-toggler ekit-nav-menu--overlay"></div>        </nav>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-00bfbbf e-con-full e-flex e-con e-child" data-id="00bfbbf" data-element_type="container">
+				<div class="elementor-element elementor-element-4acbfd8 elementor-align-left elementor-widget elementor-widget-button" data-id="4acbfd8" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="lms.html">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Login</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				<div data-elementor-type="wp-page" data-elementor-id="1948" class="elementor elementor-1948" data-elementor-post-type="page">
+				<div class="elementor-element elementor-element-543c6975 e-flex e-con-boxed e-con e-parent" data-id="543c6975" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-143fff06 e-con-full e-flex e-con e-parent" data-id="143fff06" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-3cd7e243 e-flex e-con-boxed e-con e-child" data-id="3cd7e243" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-165bbf50 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="165bbf50" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Data Science and Analytic Programme</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-1264f4e6 elementor-widget elementor-widget-text-editor" data-id="1264f4e6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									The Data Science and Analytics programme provides these skills, combining a strong academic degree course with hands-on experience of leading commercial technology, and the chance to gain industry certification
+
+								</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-741333e2 e-flex e-con-boxed e-con e-parent" data-id="741333e2" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-767588f0 elementor-grid-3 elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-posts--thumbnail-top elementor-card-shadow-yes elementor-posts__hover-gradient elementor-widget elementor-widget-posts" data-id="767588f0" data-element_type="widget" data-settings="{&quot;pagination_type&quot;:&quot;numbers_and_prev_next&quot;,&quot;cards_columns&quot;:&quot;3&quot;,&quot;cards_columns_tablet&quot;:&quot;2&quot;,&quot;cards_columns_mobile&quot;:&quot;1&quot;,&quot;cards_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:35,&quot;sizes&quot;:[]},&quot;cards_row_gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;cards_row_gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="posts.cards">
+				<div class="elementor-widget-container">
+							<div class="elementor-posts-container elementor-posts elementor-posts--skin-cards elementor-grid">
+				<article class="elementor-post elementor-grid-item post-1252 programmes type-programmes status-publish has-post-thumbnail hentry programmes-categories-marketing">
+			<div class="elementor-post__card">
+				<a class="elementor-post__thumbnail__link" href="programmes/executive-diploma-in-marketing.html" tabindex="-1" ><div class="elementor-post__thumbnail"><img fetchpriority="high" decoding="async" width="244" height="300" src="wp-content/uploads/2024/02/marketing-management-244x300.webp" class="attachment-medium size-medium wp-image-1138" alt="" srcset="https://traingogy.uk/wp-content/uploads/2024/02/marketing-management-244x300.webp 244w, https://traingogy.uk/wp-content/uploads/2024/02/marketing-management.webp 315w" sizes="(max-width: 244px) 100vw, 244px" /></div></a>
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="programmes/executive-diploma-in-marketing.html" >
+				Executive Diploma in Marketing			</a>
+		</h3>
+				</div>
+					</div>
+		</article>
+				<article class="elementor-post elementor-grid-item post-1253 programmes type-programmes status-publish has-post-thumbnail hentry programmes-categories-marketing">
+			<div class="elementor-post__card">
+				<a class="elementor-post__thumbnail__link" href="programmes/executive-diploma-in-marketing-management.html" tabindex="-1" ><div class="elementor-post__thumbnail"><img decoding="async" width="244" height="300" src="wp-content/uploads/2024/02/integrated-marketing-244x300.webp" class="attachment-medium size-medium wp-image-1254" alt="" srcset="https://traingogy.uk/wp-content/uploads/2024/02/integrated-marketing-244x300.webp 244w, https://traingogy.uk/wp-content/uploads/2024/02/integrated-marketing.webp 394w" sizes="(max-width: 244px) 100vw, 244px" /></div></a>
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="programmes/executive-diploma-in-marketing-management.html" >
+				Executive Diploma in Marketing Management			</a>
+		</h3>
+				</div>
+					</div>
+		</article>
+				<article class="elementor-post elementor-grid-item post-1255 programmes type-programmes status-publish has-post-thumbnail hentry programmes-categories-marketing">
+			<div class="elementor-post__card">
+				<a class="elementor-post__thumbnail__link" href="programmes/executive-diploma-in-integrated-marketing-communication.html" tabindex="-1" ><div class="elementor-post__thumbnail"><img decoding="async" width="244" height="300" src="wp-content/uploads/2024/02/new-retail-marketing-1-244x300.webp" class="attachment-medium size-medium wp-image-1259" alt="" srcset="https://traingogy.uk/wp-content/uploads/2024/02/new-retail-marketing-1-244x300.webp 244w, https://traingogy.uk/wp-content/uploads/2024/02/new-retail-marketing-1.webp 394w" sizes="(max-width: 244px) 100vw, 244px" /></div></a>
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="programmes/executive-diploma-in-integrated-marketing-communication.html" >
+				Executive Diploma in Integrated Marketing Communications			</a>
+		</h3>
+				</div>
+					</div>
+		</article>
+				<article class="elementor-post elementor-grid-item post-1260 programmes type-programmes status-publish has-post-thumbnail hentry programmes-categories-logistics-purchasing-and-scm">
+			<div class="elementor-post__card">
+				<a class="elementor-post__thumbnail__link" href="programmes/executive-diploma-in-logistics-management.html" tabindex="-1" ><div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="244" height="300" src="wp-content/uploads/2024/02/logistics-1-244x300.webp" class="attachment-medium size-medium wp-image-1262" alt="" srcset="https://traingogy.uk/wp-content/uploads/2024/02/logistics-1-244x300.webp 244w, https://traingogy.uk/wp-content/uploads/2024/02/logistics-1.webp 394w" sizes="(max-width: 244px) 100vw, 244px" /></div></a>
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="programmes/executive-diploma-in-logistics-management.html" >
+				Executive Diploma in Logistics Management			</a>
+		</h3>
+				</div>
+					</div>
+		</article>
+				<article class="elementor-post elementor-grid-item post-1263 programmes type-programmes status-publish has-post-thumbnail hentry programmes-categories-logistics-purchasing-and-scm">
+			<div class="elementor-post__card">
+				<a class="elementor-post__thumbnail__link" href="programmes/executive-diploma-in-purchasing-supply-management.html" tabindex="-1" ><div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="244" height="300" src="wp-content/uploads/2024/02/purchasing-supply-chain-1-244x300.webp" class="attachment-medium size-medium wp-image-1264" alt="" srcset="https://traingogy.uk/wp-content/uploads/2024/02/purchasing-supply-chain-1-244x300.webp 244w, https://traingogy.uk/wp-content/uploads/2024/02/purchasing-supply-chain-1.webp 394w" sizes="(max-width: 244px) 100vw, 244px" /></div></a>
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="programmes/executive-diploma-in-purchasing-supply-management.html" >
+				Executive Diploma in Purchasing Supply Management			</a>
+		</h3>
+				</div>
+					</div>
+		</article>
+				<article class="elementor-post elementor-grid-item post-1266 programmes type-programmes status-publish has-post-thumbnail hentry programmes-categories-logistics-purchasing-and-scm">
+			<div class="elementor-post__card">
+				<a class="elementor-post__thumbnail__link" href="programmes/executive-diploma-in-inventory-warehousing.html" tabindex="-1" ><div class="elementor-post__thumbnail"><img loading="lazy" decoding="async" width="244" height="300" src="wp-content/uploads/2024/02/inventory-warehousing-244x300.webp" class="attachment-medium size-medium wp-image-1268" alt="" srcset="https://traingogy.uk/wp-content/uploads/2024/02/inventory-warehousing-244x300.webp 244w, https://traingogy.uk/wp-content/uploads/2024/02/inventory-warehousing.webp 394w" sizes="(max-width: 244px) 100vw, 244px" /></div></a>
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="programmes/executive-diploma-in-inventory-warehousing.html" >
+				Executive Diploma in Inventory &amp; Warehousing			</a>
+		</h3>
+				</div>
+					</div>
+		</article>
+				</div>
+		
+				<div class="e-load-more-anchor" data-page="1" data-max-page="4" data-next-page="https://traingogy.uk/data-science-and-analytic-programme/?e-page-767588f0=2"></div>
+				<nav class="elementor-pagination" aria-label="Pagination">
+			<span class="page-numbers prev">&laquo; Previous</span>
+<span aria-current="page" class="page-numbers current"><span class="elementor-screen-only">Page</span>1</span>
+<a class="page-numbers" href="https://traingogy.uk/data-science-and-analytic-programme/?e-page-767588f0=2"><span class="elementor-screen-only">Page</span>2</a>
+<a class="page-numbers" href="https://traingogy.uk/data-science-and-analytic-programme/?e-page-767588f0=3"><span class="elementor-screen-only">Page</span>3</a>
+<a class="page-numbers" href="https://traingogy.uk/data-science-and-analytic-programme/?e-page-767588f0=4"><span class="elementor-screen-only">Page</span>4</a>
+<a class="page-numbers next" href="https://traingogy.uk/data-science-and-analytic-programme/?e-page-767588f0=2">Next &raquo;</a>		</nav>
+						</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-0b11ae2 e-flex e-con-boxed e-con e-parent" data-id="0b11ae2" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-a260988 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="a260988" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Programme Categories</h2>				</div>
+				</div>
+		<div class="elementor-element elementor-element-175ddf7 e-flex e-con-boxed e-con e-child" data-id="175ddf7" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-6b7b69b e-flex e-con-boxed e-con e-child" data-id="6b7b69b" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-62a11e3 elementor-widget elementor-widget-image" data-id="62a11e3" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="http://traingogy.uk/marketing-programmes/">
+							<img loading="lazy" decoding="async" width="292" height="122" src="wp-content/uploads/2024/02/3b0f8f145e3945f5858fae9cb6eca217.jpg" class="attachment-large size-large wp-image-455" alt="" />								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-c1f0ef9 elementor-widget elementor-widget-heading" data-id="c1f0ef9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="http://traingogy.uk/marketing-programmes/">Marketing</a></h2>				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-f66afaa e-flex e-con-boxed e-con e-child" data-id="f66afaa" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-924b654 elementor-widget elementor-widget-image" data-id="924b654" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="http://traingogy.uk/management-programmes/">
+							<img loading="lazy" decoding="async" width="292" height="122" src="wp-content/uploads/2024/02/nsplsh_75c035620c1b4c9fa17b92acf9f382c4mv2-1.jpg" class="attachment-large size-large wp-image-453" alt="" />								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-e717850 elementor-widget elementor-widget-heading" data-id="e717850" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="http://traingogy.uk/management-programmes/">Management</a></h2>				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-adb81fb e-flex e-con-boxed e-con e-child" data-id="adb81fb" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-ea97e34 elementor-widget elementor-widget-image" data-id="ea97e34" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="http://traingogy.uk/retailing-programmes/">
+							<img loading="lazy" decoding="async" width="292" height="122" src="wp-content/uploads/2024/02/nsplsh_838b5c0886ee44ae8fd79bf060b7742fmv2.jpg" class="attachment-large size-large wp-image-454" alt="" />								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-b3586de elementor-widget elementor-widget-heading" data-id="b3586de" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="http://traingogy.uk/retailing-programmes/">Retailing</a></h2>				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-da2f990 e-flex e-con-boxed e-con e-child" data-id="da2f990" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-6893620 elementor-widget elementor-widget-image" data-id="6893620" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="http://traingogy.uk/customer-service-programmes/">
+							<img loading="lazy" decoding="async" width="292" height="122" src="wp-content/uploads/2024/02/nsplsh_4a6f42ab84f442d28e4fbdb835f98e1emv2-1.jpg" class="attachment-large size-large wp-image-451" alt="" />								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-3fcd871 elementor-widget elementor-widget-heading" data-id="3fcd871" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="http://traingogy.uk/customer-service-programmes/">Customer Service</a></h2>				</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-d040970 e-flex e-con-boxed e-con e-child" data-id="d040970" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-d57b707 e-flex e-con-boxed e-con e-child" data-id="d57b707" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-9647312 elementor-widget elementor-widget-image" data-id="9647312" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="http://traingogy.uk/early-childhood-programmes/">
+							<img loading="lazy" decoding="async" width="292" height="122" src="wp-content/uploads/2024/02/11062b_3214740e10c14a57915f9fd64011fad0mv2.jpg" class="attachment-large size-large wp-image-452" alt="" />								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-80843f8 elementor-widget elementor-widget-heading" data-id="80843f8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="http://traingogy.uk/early-childhood-programmes/">Early Childhood</a></h2>				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-d6dcb18 e-flex e-con-boxed e-con e-child" data-id="d6dcb18" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-93a85f8 elementor-widget elementor-widget-image" data-id="93a85f8" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="http://traingogy.uk/human-resource-management-programmes/">
+							<img loading="lazy" decoding="async" width="292" height="122" src="wp-content/uploads/2024/02/509f3b_d4924098b5fe4f7689bfe63309300f75mv2-1.jpg" class="attachment-large size-large wp-image-449" alt="" />								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-2794acc elementor-widget elementor-widget-heading" data-id="2794acc" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="http://traingogy.uk/human-resource-management-programmes/">Human Resource Management</a></h2>				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-8452706 e-flex e-con-boxed e-con e-child" data-id="8452706" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-4b68e3d elementor-widget elementor-widget-image" data-id="4b68e3d" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="http://traingogy.uk/logistics-purchasing-and-supply-chain-programmes/">
+							<img loading="lazy" decoding="async" width="292" height="122" src="wp-content/uploads/2024/02/nsplsh_002d9a5110a1434982632801d969a414mv2-2.jpg" class="attachment-large size-large wp-image-450" alt="" />								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-eeb9d04 elementor-widget elementor-widget-heading" data-id="eeb9d04" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="http://traingogy.uk/logistics-purchasing-and-supply-chain-programmes/">Logistics, Purchasing and SCM</a></h2>				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-4c5141d e-flex e-con-boxed e-con e-child" data-id="4c5141d" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-5d9411f elementor-widget elementor-widget-image" data-id="5d9411f" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="http://traingogy.uk/leadership-and-strategic-management-programmes/">
+							<img loading="lazy" decoding="async" width="292" height="122" src="wp-content/uploads/2024/02/e1f88fe1ad0f4844b50abde26bfc0a45.jpg" class="attachment-large size-large wp-image-447" alt="" />								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-a9c41d7 elementor-widget elementor-widget-heading" data-id="a9c41d7" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="http://traingogy.uk/leadership-and-strategic-management-programmes/">Leadership and Strategic Management</a></h2>				</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-a3f902a e-flex e-con-boxed e-con e-child" data-id="a3f902a" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-b5dbb17 e-flex e-con-boxed e-con e-child" data-id="b5dbb17" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-3ba6aa5 elementor-widget elementor-widget-image" data-id="3ba6aa5" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="http://traingogy.uk/islamic-trust-and-estate-management-programmes/">
+							<img loading="lazy" decoding="async" width="292" height="122" src="wp-content/uploads/2024/02/509f3b_d1eac689b6f84fae8166ea4ac55572efmv2.jpeg" class="attachment-large size-large wp-image-448" alt="" />								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-217f755 elementor-widget elementor-widget-heading" data-id="217f755" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="http://traingogy.uk/islamic-trust-and-estate-management-programmes/">Islamic Trust and Estate Management Programmes</a></h2>				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-b62a5f5 e-flex e-con-boxed e-con e-child" data-id="b62a5f5" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-e54aef4 elementor-widget elementor-widget-image" data-id="e54aef4" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="http://traingogy.uk/data-science-and-analytic-programme/">
+							<img loading="lazy" decoding="async" width="292" height="122" src="wp-content/uploads/2024/02/509f3b_4185d39b91884de893259412ce4d4dbdmv2-1.jpg" class="attachment-large size-large wp-image-446" alt="" />								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-942d8da elementor-widget elementor-widget-heading" data-id="942d8da" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="http://traingogy.uk/data-science-and-analytic-programme/">Data Science and Analytic</a></h2>				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-efbe253 e-flex e-con-boxed e-con e-child" data-id="efbe253" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-ed88e72 elementor-widget elementor-widget-image" data-id="ed88e72" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="http://traingogy.uk/accounting-and-finance-programme/">
+							<img loading="lazy" decoding="async" width="292" height="122" src="wp-content/uploads/2024/02/509f3b_a6cfe42311ac4bce859a7bf8f1c54c40mv2-1.webp" class="attachment-large size-large wp-image-445" alt="" />								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-5ff91eb elementor-widget elementor-widget-heading" data-id="5ff91eb" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="http://traingogy.uk/accounting-and-finance-programme/">Accounting and Finance</a></h2>				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-f2f8028 e-flex e-con-boxed e-con e-child" data-id="f2f8028" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-cd6a14c elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="cd6a14c" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="292" height="122" src="wp-content/uploads/2024/02/3b0f8f145e3945f5858fae9cb6eca217.jpg" class="attachment-large size-large wp-image-455" alt="" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-e2cc19b elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-heading" data-id="e2cc19b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Marketing</h2>				</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				<div data-elementor-type="footer" data-elementor-id="85" class="elementor elementor-85 elementor-location-footer" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-4d31085 e-flex e-con-boxed e-con e-parent" data-id="4d31085" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-7b7b0e6 elementor-widget elementor-widget-image" data-id="7b7b0e6" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="226" height="41" src="wp-content/uploads/2024/02/509f3b_feb28b364d7c48fda5c8f7cb95e32ad1mv2.webp" class="attachment-large size-large wp-image-20" alt="" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-7678119 elementor-widget elementor-widget-text-editor" data-id="7678119" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>© 2024 Traingogy All Rights Reserved</p>								</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/hello-elementor/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+			<script>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+			<script src="wp-content/themes/hello-elementor/assets/js/hello-frontend.js" id="hello-theme-frontend-js"></script>
+<script src="wp-content/plugins/elementor/assets/js/webpack.runtime.min.js" id="elementor-webpack-runtime-js"></script>
+<script src="wp-content/plugins/elementor/assets/js/frontend-modules.min.js" id="elementor-frontend-modules-js"></script>
+<script src="wp-includes/js/jquery/ui/core.min.js" id="jquery-ui-core-js"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"3.31.2","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"theme_builder_v2":true,"hello-theme-header-footer":true,"landing-pages":true,"nested-elements":true,"e_element_cache":true,"home_screen":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"cloud-library":true,"e_opt_in_v4_page":true},"urls":{"assets":"https:\/\/traingogy.uk\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/traingogy.uk\/wp-admin\/admin-ajax.php","uploadUrl":"http:\/\/traingogy.uk\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"ca34d611f3"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"logo","hello_header_menu_layout":"horizontal","hello_footer_logo_type":"logo"},"post":{"id":1948,"title":"Data%20Science%20and%20Analytic%20Programme%20-%20traingogy.uk","excerpt":"","featuredImage":false}};
+//# sourceURL=elementor-frontend-js-before
+</script>
+<script src="wp-content/plugins/elementor/assets/js/frontend.min.js" id="elementor-frontend-js"></script>
+<script src="wp-includes/js/imagesloaded.min.js" id="imagesloaded-js"></script>
+<script src="wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script.js" id="elementskit-framework-js-frontend-js"></script>
+<script id="elementskit-framework-js-frontend-js-after">
+		var elementskit = {
+			resturl: 'https://traingogy.uk/wp-json/elementskit/v1/',
+		}
+
+		
+//# sourceURL=elementskit-framework-js-frontend-js-after
+</script>
+<script src="wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scripts.js" id="ekit-widget-scripts-js"></script>
+<script src="wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js" id="elementor-pro-webpack-runtime-js"></script>
+<script src="wp-includes/js/dist/hooks.min.js" id="wp-hooks-js"></script>
+<script src="wp-includes/js/dist/i18n.min.js" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/traingogy.uk\/wp-admin\/admin-ajax.php","nonce":"8c24699fa4","urls":{"assets":"https:\/\/traingogy.uk\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/traingogy.uk\/wp-json\/"},"settings":{"lazy_load_background_images":true},"popup":{"hasPopUps":false},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/traingogy.uk\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+//# sourceURL=elementor-pro-frontend-js-before
+</script>
+<script src="wp-content/plugins/elementor-pro/assets/js/frontend.min.js" id="elementor-pro-frontend-js"></script>
+<script src="wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js" id="pro-elements-handlers-js"></script>
+<script src="wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle.min.js" id="animate-circle-js"></script>
+<script id="elementskit-elementor-js-extra">
+var ekit_config = {"ajaxurl":"https://traingogy.uk/wp-admin/admin-ajax.php","nonce":"fda92efc80"};
+//# sourceURL=elementskit-elementor-js-extra
+</script>
+<script src="wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor.js" id="elementskit-elementor-js"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://traingogy.uk/wp-includes/js/wp-emoji-release.min.js?ver=6.9.1"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://traingogy.uk/wp-includes/js/wp-emoji-loader.min.js
+</script>
+
 </body>
 </html>
